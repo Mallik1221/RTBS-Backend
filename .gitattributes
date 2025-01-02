@@ -1,0 +1,8 @@
+# Ensure consistent line endings across all platforms
+* text=auto
+
+# Force LF line endings for specific files
+node_modules/** text eol=lf
+
+# Force CRLF for Windows users in some cases
+# * text=auto eol=crlf
