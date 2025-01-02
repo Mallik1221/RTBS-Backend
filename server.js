@@ -17,7 +17,7 @@ app.use(express.json()); // Parses JSON data
 
 // Test Route
 app.get('/', (req, res) => {
-  res.send('Backend is running');
+  res.send('Backend is running...');
 });
 
 // Start the server
